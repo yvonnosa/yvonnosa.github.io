@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+
+ <script>
+function validateForm() {
+    var fname = document.myForm.fname.value;
+    var lname = document.myForm.lname.value;
+    var username = document.myForm.username.value;
+    var email = document.myForm.email.value;
+    var password = document.myForm.password.value;
+    var confirmpassword = document.myForm.confirmpassword.value;
+
+    if (fname == "") {
+        alert("Please enter your firstname");
+        return false;
+    }
+    
+    if (lname == "") {
+        alert("Please enter your lastname");
+        return false;
+    }
+
+    if (username == "") {
+        alert("Please enter your username");
+        return false;
+    }
+
+    if (email == "") {
+        alert("Please enter your email");
+        return false;
+    }
+
+     if (password == "") {
+        alert("Please enter a valid password");
+        return false;
+    }
+
+    if (confirmpassword == "") {
+        alert("Please confirm password");
+        return false;
+    }
+
+
+
+}
+</script>
+
+
+<body>
+<div class="row" id="up"></div>
+
+
+<!-- start container -->
+
+  <div class="container">
+
+
+    <div class="row" id="reg">
+
+    <h2>Register here</h2>
+      <div class="col-md-1"></div>
+
+      <div class="col-md-10">
+        <form name="myForm" action="register.html" onsubmit="return validateForm()" method="POST">
+
+          <input type="text" name="fname" placeholder="firstname" class="form-control"></input><br>
+
+          <input type="text" name="lname" placeholder="lastname" class="form-control"></input><br>
+
+          <input type="text" name="username" placeholder="username" class="form-control"></input><br>
+
+          <input type="text" name="email" placeholder="email" class="form-control"></input><br>
+
+          <input type="password" name="password" placeholder="password" class="form-control"></input><br>
+
+          <input type="password" name="confirmpassword" placeholder="confirmpassword" class="form-control"></input><br>
+
+          <a href="login.html"><input type="submit" name="btn-submit" value="send" class="btn btn-primary"></input></a>
+        </form>
+      </div>
+
+      <div class="col-md-1"></div>
+    </div>
+
+
+     <div class="row">
+      <div class="col-md-4"></div>
+
+      <div class="col-md-4"></div>
+
+      <div class="col-md-4" id="link">
+        <a href="login.html">login if registered</a>
+      </div>
+    </div>
+
+
+  </div>
+
+<!-- end container -->
+
+
+
+
+  <div class="row" id="down"></div>
+
+</body>
+</html>

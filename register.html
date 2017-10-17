@@ -11,52 +11,6 @@
   <script src="js/bootstrap.min.js"></script>
 </head>
 
-
- <script>
-function validateForm() {
-    var fname = document.myForm.fname.value;
-    var lname = document.myForm.lname.value;
-    var username = document.myForm.username.value;
-    var email = document.myForm.email.value;
-    var password = document.myForm.password.value;
-    var confirmpassword = document.myForm.confirmpassword.value;
-
-    if (fname == "") {
-        alert("Please enter your firstname");
-        return false;
-    }
-    
-    if (lname == "") {
-        alert("Please enter your lastname");
-        return false;
-    }
-
-    if (username == "") {
-        alert("Please enter your username");
-        return false;
-    }
-
-    if (email == "") {
-        alert("Please enter your email");
-        return false;
-    }
-
-     if (password == "") {
-        alert("Please enter a valid password");
-        return false;
-    }
-
-    if (confirmpassword == "") {
-        alert("Please confirm password");
-        return false;
-    }
-
-
-
-}
-</script>
-
-
 <body>
 <div class="row" id="up"></div>
 

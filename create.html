@@ -18,7 +18,7 @@
 
 <!-- start container -->
 
-  <div class="container-fluid" style="height: auto !important;">
+  <div class="container-fluid">
 
 
     <div class="row" id="recy">
@@ -33,7 +33,7 @@
           <div class="row">
             <div class="col-md-4">
               <h5>Ingridients</h5>
-              <form style="margin-top: 0px; padding: 0px;">
+              <form class="ing">
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
@@ -46,7 +46,7 @@
 
             <div class="col-md-8">
               <h5>Method</h5>
-              <form style="margin-top: 0px; padding: 0px;">
+              <form class="thod"  name="myForm" action="view.html" onsubmit="return validateForm()" method="POST">
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
@@ -62,15 +62,15 @@
 
       <div class="col-md-1"></div>
 
-      <div class="row">
-    <div class="col-md-4"></div>
+      <div class="row"  id="less">
+        <div class="col-md-4"></div>
 
-    <div class="col-md-4" >
-      <center><input type="submit" name="btn-submit" value="create" class="btn btn-primary" style="width: 90%;"></input></center>
-    </div>
+        <div class="col-md-4">
+            <center><a href="view.html"><input type="submit" name="btn-submit" value="create" class="btn btn-primary"></input></a></center>
+        </div>
 
-    <div class="col-md-4"></div>
-  </div>
+        <div class="col-md-4"></div>
+      </div>
 
     </div>
 

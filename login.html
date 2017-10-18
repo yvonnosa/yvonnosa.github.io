@@ -12,29 +12,6 @@
 </head>
 
 
-
- <script>
-function validateForm() {
-    var username = document.myForm.username.value;
-    var password = document.myForm.password.value;
-
-    if (username == "") {
-        alert("Please enter your username");
-        return false;
-    }
-
-
-     if (password == "") {
-        alert("Please enter a valid password");
-        return false;
-    }
-
-  
-
-}
-</script>
-
-
 <body>
 <div class="row" id="up"></div>
 
@@ -50,7 +27,7 @@ function validateForm() {
       <div class="col-md-1"></div>
 
       <div class="col-md-10">
-        <form name="myForm" action="login.html" onsubmit="return validateForm()" method="POST">
+        <form action="create.html">
         
           <input type="text" name="username" placeholder="username" class="form-control"></input><br>
 

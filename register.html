@@ -12,51 +12,6 @@
 </head>
 
 
- <script>
-function validateForm() {
-    var fname = document.myForm.fname.value;
-    var lname = document.myForm.lname.value;
-    var username = document.myForm.username.value;
-    var email = document.myForm.email.value;
-    var password = document.myForm.password.value;
-    var confirmpassword = document.myForm.confirmpassword.value;
-
-    if (fname == "") {
-        alert("Please enter your firstname");
-        return false;
-    }
-    
-    if (lname == "") {
-        alert("Please enter your lastname");
-        return false;
-    }
-
-    if (username == "") {
-        alert("Please enter your username");
-        return false;
-    }
-
-    if (email == "") {
-        alert("Please enter your email");
-        return false;
-    }
-
-     if (password == "") {
-        alert("Please enter a valid password");
-        return false;
-    }
-
-    if (confirmpassword == "") {
-        alert("Please confirm password");
-        return false;
-    }
-
-
-
-}
-</script>
-
-
 <body>
 <div class="row" id="up"></div>
 
@@ -72,7 +27,7 @@ function validateForm() {
       <div class="col-md-1"></div>
 
       <div class="col-md-10">
-        <form name="myForm" action="register.html" onsubmit="return validateForm()" method="POST">
+        <form action="login.html">
 
           <input type="text" name="fname" placeholder="firstname" class="form-control"></input><br>
 
@@ -86,7 +41,8 @@ function validateForm() {
 
           <input type="password" name="confirmpassword" placeholder="confirmpassword" class="form-control"></input><br>
 
-          <a href="login.html"><input type="submit" name="btn-submit" value="send" class="btn btn-primary"></input></a>
+          <a href="login.html"><input type="submit" name="btn-submit" value="send" class="btn btn-primary"></input>
+          </a>
         </form>
       </div>
 

@@ -61,6 +61,12 @@ form{
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
+#reg h5{
+	color: #999;
+}
+#dients form{
+	padding-top: 41px;
+}
 #link {
 	padding-bottom: 5%;
 	padding-top: 0px;
@@ -123,4 +129,33 @@ tr:nth-child(even) {
 }
 tr  th{
 	color: #999;
+}
+
+.thod{
+	margin-top:0px; 
+	padding: 0px;
+}
+.ing{
+	margin-top: 0px; 
+	padding: 0px;
+}
+#less input{
+	 width: 90%;
+}
+#myview{
+	height:50px;
+}
+#viewrecy h2{
+	 color: #0b6fbd;
+}
+#viewbottom{
+	height:50px;
+}
+#index{
+	margin-top: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#index h2{
+	color: #ddd;
 }

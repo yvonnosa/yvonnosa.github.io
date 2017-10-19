@@ -17,7 +17,7 @@ Html-front end
 Css-styling
 Bootsrap-framework
 
-###characteristics
+### characteristics
 
 You are able to:
 1.Create recipe
@@ -28,6 +28,6 @@ You are able to:
 
 4.Edit recipe
 
-###Authore:
+### Authore:**
 
 Yvonne Osawa

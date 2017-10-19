@@ -28,6 +28,6 @@ You are able to:
 
 4.Edit recipe
 
-### Authore:**
+### Authore: **
 
 Yvonne Osawa

@@ -37,7 +37,7 @@
           <div class="row">
             <div class="col-md-4">
               <h5>Ingridients</h5>
-              <form class="ing"  class="thod"  name="myForm" action="view.html" onsubmit="return validateForm()" method="POST">
+              <form class="ing"  class="thod"  action="view.html">
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
@@ -50,7 +50,7 @@
 
             <div class="col-md-8">
               <h5>Method</h5>
-              <form class="thod"  name="myForm" action="view.html" onsubmit="return validateForm()" method="POST">
+              <form class="thod" action="view.html">
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
                 <input type="text" class="form-control"></input>
@@ -70,7 +70,7 @@
         <div class="col-md-4"></div>
 
         <div class="col-md-4">
-            <center><a href="view.html"><input type="submit" name="btn-submit" value="create" class="btn btn-primary"></input></a></center>
+            <center><a href="{{ url_for('view')}}"><input type="submit" name="btn-submit" value="create" class="btn btn-primary"></input></a></center>
         </div>
 
         <div class="col-md-4"></div>

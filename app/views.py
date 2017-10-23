@@ -12,22 +12,24 @@ def index():
 def register():
     return render_template("register.html")
 
-    @app.route('/login')
+@app.route('/login')
 def login():
     return render_template("login.html")
 
-    @app.route('/create')
+@app.route('/create')
 def create():
     return render_template("create.html")
 
-    @app.route('/view')
+@app.route('/view')
 def view():
     return render_template("view.html")
 
-    @app.route('/edit')
+    
+@app.route('/edit')
 def edit():
     return render_template("edit.html")
-
+    
+  
 
 
 
